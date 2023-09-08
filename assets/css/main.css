@@ -3545,8 +3545,17 @@ input, select, textarea {
 			color: #636363;
 		}
 
+		/*
+		The content seems to select the right area. Child element is directly below 
+		*/
+		/* .content{
+			display: flex ;
+			justify-content: center; 
+		
+		} */
+
 		#main header.major h2:after {
-			background-color: #dddddd;
+			background-color: #dddddd; 
 			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
