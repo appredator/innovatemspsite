@@ -131,7 +131,23 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
-		@media screen and (max-width: 1680px) {
+
+	.item1 { grid-area: header; }
+	.item2 { grid-area: text; }
+
+
+	.grid-container {
+	display: grid;
+	grid:
+		'header'
+		'text'
+	}
+
+	.learnMoreButton {
+		margin-top: 40px;
+	}
+
+		@media screen and (max-width: 1920px) {
 
 			body, input, select, textarea {
 				font-size: 14pt;
