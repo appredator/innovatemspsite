@@ -72,6 +72,13 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* #main header.major h2:after {
+	background-color: #dddddd; 
+	background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+	background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+	background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+	background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+} */
 /* Basic */
 
 	@-ms-viewport {
@@ -170,6 +177,24 @@ input, select, textarea {
 			}
 
 		}
+
+		/*
+		THIS IS ITTtTTTTTTTTTTTT
+		The content seems to select the right area. Child element is directly below 
+		*/
+		/* .content{
+			display: flex ;
+			justify-content: center; 
+		
+		} 
+
+		#main header.major h2:after {
+			background-color: #dddddd; 
+			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+		}*/
 
 	a {
 		-moz-transition: color 0.2s ease, border-bottom 0.2s ease;
